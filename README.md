@@ -102,3 +102,13 @@ void loop() {
 
 }
 ```
+Here, the id is print to serial port in 
+```arduino
+Serial.print("Tap card key: ");
+Serial.println(strID);
+```
+so if you want to print to a different port, change *Serial* for your new port and remember to initialize it in the *setup()*.
+
+## Execution
+
+After implementing this code and connecting the RFID scanner to the Arduino Mega, we can read the tag ids of different smartcards in serial monitor.
