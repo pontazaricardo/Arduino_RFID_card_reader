@@ -43,4 +43,16 @@ And the following pins need to be connected from the Arduino Mega to the RFID sc
 6. 3.3V	- 3.3V or 5V if the 3.3V is in use.
 7. RST	- Pin 49 - RST_PIN.
 
-![demo](/images/pic01.jpg){:height="50%" width="50%"}
+![demo](/images/pic01.jpg)
+
+### Initialization
+
+To initialize the library, just add in your *setup()* the following:
+
+```arduino
+void setup() {
+  Serial.begin(9600);
+  SPI.begin();
+}
+```
+Note: This project prints the tag id to the serial port where the Arduino is connected. If you want to use a different port or different baudrate, change the port and baudrate in the previous code.
