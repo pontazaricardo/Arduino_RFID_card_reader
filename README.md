@@ -112,3 +112,5 @@ so if you want to print to a different port, change *Serial* for your new port a
 ## Execution
 
 After implementing this code and connecting the RFID scanner to the Arduino Mega, we can read the tag ids of different smartcards in serial monitor.
+
+![demo2](/images/output.gif?raw=true)
