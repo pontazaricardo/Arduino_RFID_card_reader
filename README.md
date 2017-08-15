@@ -19,3 +19,7 @@ The following hardware was used:
 1. A **MF522-AN** RFID scanner.
 2. An Arduino Mega 2560.
 3. A LCD 1602 keypad shield. 
+
+## Code
+
+There are some important sections for the MFRC library that need to be addressed.
