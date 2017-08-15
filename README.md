@@ -56,3 +56,16 @@ void setup() {
 }
 ```
 Note: This project prints the tag id to the serial port where the Arduino is connected. If you want to use a different port or different baudrate, change the port and baudrate in the previous code.
+
+In the *loop()*, we have
+
+```arduino
+void loop() {
+if (!rfid.PICC_IsNewCardPresent() || !rfid.PICC_ReadCardSerial())
+    return;
+	...
+}
+```
+This code keeps waiting until a smarttag is read by the RFID scanner. When this happens, it continues with the rest of the code:
+
+
