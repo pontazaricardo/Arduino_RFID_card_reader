@@ -2,7 +2,7 @@
 
 This project shows how to use a RFID reader with Arduino, by showing how to read the embedded id inside some magnetic smartcards and smarttags.
 
-![demo](/images/hands.gif?raw=true)
+![demo1](/images/hands.gif "title-1") ![demo2](/images/output.gif "title-2")
 
 ## Library
 
