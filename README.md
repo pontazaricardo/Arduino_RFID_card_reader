@@ -43,4 +43,4 @@ And the following pins need to be connected from the Arduino Mega to the RFID sc
 6. 3.3V	- 3.3V or 5V if the 3.3V is in use.
 7. RST	- Pin 49 - RST_PIN.
 
-![demo](/images/pic01.jpg?raw=true){:height="700px" width="400px"}
+![demo](/images/pic01.jpg){:height="700px" width="400px"}
