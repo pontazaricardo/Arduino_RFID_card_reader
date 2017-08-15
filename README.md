@@ -23,3 +23,18 @@ The following hardware was used:
 ## Code
 
 There are some important sections for the MFRC library that need to be addressed.
+
+### Pin connection
+
+At the top of your code, the pin mapping has to be added:
+```arduino
+#define SS_PIN 53
+#define RST_PIN 49
+#define SP_PIN 50
+
+MFRC522 rfid(SS_PIN, RST_PIN);
+```
+And the following pins need to be connected from the Arduino Mega to the RFID scanner:
+1. MISO	- Pin 50 - SP_PIN.
+2. SCK 	- Pin 52.
+3. SS	- Pin 53 - SS_PIN.
